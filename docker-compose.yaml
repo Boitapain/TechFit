@@ -13,6 +13,14 @@ services:
       - N8N_HOST=0.0.0.0
     volumes:
       - n8n_data:/home/node/.n8n
+  sveltekit:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
 
 volumes:
   n8n_data:
