@@ -1,0 +1,21 @@
+{
+    "name": "TechFit Codespace",
+    "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    },
+    "forwardPorts": [
+        3000,
+        5678
+    ],
+    "postCreateCommand": "npm install",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "svelte.svelte-vscode",
+                "dbaeumer.vscode-eslint"
+            ]
+        }
+    }
+}
