@@ -5,6 +5,7 @@
     "npm:@sveltejs/kit@^2.22.0": "2.37.0_@sveltejs+vite-plugin-svelte@6.1.3__svelte@5.38.6___acorn@8.15.0__vite@7.1.3___picomatch@4.0.3_svelte@5.38.6__acorn@8.15.0_vite@7.1.3__picomatch@4.0.3_acorn@8.15.0",
     "npm:@sveltejs/vite-plugin-svelte@6": "6.1.3_svelte@5.38.6__acorn@8.15.0_vite@7.1.3__picomatch@4.0.3",
     "npm:@tailwindcss/vite@4": "4.1.12_vite@7.1.3__picomatch@4.0.3",
+    "npm:daisyui@^5.0.54": "5.0.54",
     "npm:svelte-check@4": "4.3.1_svelte@5.38.6__acorn@8.15.0_typescript@5.9.2",
     "npm:svelte@5": "5.38.6_acorn@8.15.0",
     "npm:tailwindcss@4": "4.1.12",
@@ -511,6 +512,9 @@
     "cookie@0.6.0": {
       "integrity": "sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw=="
     },
+    "daisyui@5.0.54": {
+      "integrity": "sha512-03iuq06+lLq/VczY/+YpADgLXVC1HYO63PNiH6A9hn/+f6IkVoONVc+Jh08xizkLQQCVVMMUBp+KeIdcWSBLcg=="
+    },
     "debug@4.4.1": {
       "integrity": "sha512-KcKCqiftBJcZr++7ykoDIEwSa3XWowTfNPo92BYxjXiyYEVrUQh2aLyhxBCwww+heortUFxEJYcRzosstTEBYQ==",
       "dependencies": [
@@ -879,6 +883,7 @@
         "npm:@sveltejs/kit@^2.22.0",
         "npm:@sveltejs/vite-plugin-svelte@6",
         "npm:@tailwindcss/vite@4",
+        "npm:daisyui@^5.0.54",
         "npm:svelte-check@4",
         "npm:svelte@5",
         "npm:tailwindcss@4",
